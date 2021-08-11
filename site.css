@@ -194,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+    float:right;
     position: fixed;
     top: 0;
     left: 0;
@@ -249,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-bottom: 8px;
         transition: 0.3s;
         font-size: 15px;
-        border-radius: 50px;
+        border-radius: 3px;
         background: #f2f3f5;
         height: 56px;
         width: 100%;
@@ -310,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
     outline: none !important;
     line-height: 0;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 3px;
     padding: 5px;
 }
 
